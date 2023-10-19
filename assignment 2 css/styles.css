@@ -1,0 +1,53 @@
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: #d5e7c1; 
+    color: #d4d940;
+}
+
+header, footer {
+    background-color: #fa6d6a;
+    color: #7d4ffb;
+    text-align: center;
+    padding: 10px;
+}
+
+header h1 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 2em;
+}
+
+.main {
+    margin: 20px;
+}
+
+.lyrics {
+    font-size: 1.2em;
+    font-style: italic;
+    color: #5683b8; /* Dark gray text color */
+}
+
+/* Additional styles for specific elements */
+
+.verse {
+    color: #fa69c7; /* Blue color for verses */
+    font-size: 1.1em;
+    font-weight:lighter;
+    margin-bottom: 10px;
+}
+
+.chorus {
+    color: #e29338; /* Green color for chorus */
+    font-size: 1.2em;
+    font-style:oblique;
+    margin-bottom: 20px;
+}
+
+.lyrics p {
+    margin: 5px 0;
+}
+
+.lyrics br {
+    display: block;
+    margin-bottom: 10px;
+}
